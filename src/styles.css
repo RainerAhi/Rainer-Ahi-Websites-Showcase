@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/avenir');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f5f4f4;
+  color: #282929;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.intro {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 15%;
+}
+
+.title {
+  font-size: 14rem;
+  line-height: 13rem;
+  font-weight: 400;
+  opacity: 1;
+  color: #282929;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  text-align: end;
+  position: absolute;
+  right: 0;
+  margin-top: 7.5%;
+  padding-right: 40px;
+}
+
+.exp {
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 700;
+  display: inline;
+}
+
+.name {
+  padding: 20px 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.rainer {
+  width: 500px;
+}
+
+span {
+  display: block;
+  overflow: hidden;
+}
+.banner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner .bannerImg {
+  object-fit: contain;
+  height: 50vh;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.projects-section {
+  position: relative;
+  height: fit-content;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.border {
+  width: 100%;
+  color: #282929;
+  height: 0px;
+  z-index: 1;
+  border-color: #282929;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  padding: 10px 0px;
+}
+.projects > .project {
+  display: flex;
+  padding: 12px 20px;
+  gap: 0px 10px;
+  cursor: pointer;
+  justify-content: flex-start;
+}
+.project h1 {
+  font-size: 11rem;
+  line-height: 124px;
+  font-weight: 400;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 0;
+  color: #282929;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+.project > img {
+  height: 138px;
+  align-self: center;
+  object-fit: contain;
+  transition: all 0.5s ease-in-out;
+  transform: scale(0);
+}
+
+.project span p {
+  text-transform: uppercase;
+  font-size: 17px;
+  width: 0px;
+  transition: width 0.5s;
+  font-weight: 600;
+  color: transparent;
+}
+
+.project:hover h1 {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+.project:hover > img {
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
+}
+.project:hover span p {
+  width: 115px;
+  transition: width 0.5s;
+  color: #282929;
+}
+.project:hover .banner .bannerImg {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+a {
+  text-decoration: none;
+  color: #393939;
+  z-index: 2;
+}
+
+
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  height: 100vh;
+  width: 100%;
+  margin-top: 25%;
+}
+
+.footerinfo {
+  width: 100%;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  font-size: 6rem;
+  color: #282929;
+  font-family: "Acid Grotesk";
+  background-color: azure;
+}
+
+.ftborder {
+  width: 100%;
+  color: #282929;
+  height: 0px;
+  z-index: 1;
+  border-color: #282929;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 10%;
+  margin-bottom: 2.5%;
+}
+
+.info {
+  width: 100%;
+  height: 100px;
+  color: #282929;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.25rem;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  margin-top: 7.5%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  padding: 0 20px;
+}
+
+.contact {
+  font-family: 'Playfair Display SC', serif;
+  color: #282929;
+  font-size: 9rem;
+  text-align: center;
+  line-height: 9rem;
+  margin: 0 5%;
+  text-transform: uppercase;
+}
+
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
