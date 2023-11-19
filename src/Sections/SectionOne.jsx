@@ -20,7 +20,7 @@ export const SectionOne = () => {
           <span>
             <p>every challenge turns effortless with effort</p>
           </span>
-          <a href="https://porsche-landing-page.vercel.app/" target="_blank" ><h1>PORSCHE LP</h1></a>
+          <a href="https://porsche-landing-page.vercel.app/" target="_blank" ><h1>PORSCHE</h1></a>
           <img src="./arrow3.svg" alt="" className="arrow" />
         </div>
         <div className="border" />
@@ -40,7 +40,7 @@ export const SectionOne = () => {
           <span>
             <p>every challenge turns effortless with effort</p>
           </span>
-          <a href="https://kalev-chocolate-showcase-by-rainer-ahi.vercel.app/" target="_blank" ><h1>CHOCOLATE LP</h1></a>
+          <a href="https://kalev-chocolate-showcase-by-rainer-ahi.vercel.app/" target="_blank" ><h1>CHOCOLATE</h1></a>
           <img src="./arrow3.svg" alt="" className="arrow" />
         </div>
         <div className="border" />

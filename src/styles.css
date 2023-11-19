@@ -15,6 +15,7 @@ body {
   background-color: #f5f4f4;
   color: #282929;
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
 .nav {
@@ -297,4 +298,104 @@ html.lenis {
 
 .lenis.lenis-scrolling iframe {
   pointer-events: none;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+
+  .body {
+    overflow: hidden;
+  }
+
+  .intro {
+    height: 100vh;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .name {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .title {
+    font-size: 3.5rem;
+    line-height: 5rem;
+    text-align: center;
+    position: relative;
+    padding-right: 0;
+  }
+  
+  .scroll {
+    position: relative;
+    margin-bottom: 15%;
+  }
+  
+  .rainer {
+    width: 100%;
+  }
+  
+  .project h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .arrow {
+    width: 0;
+  }
+
+  .project:hover span p {
+    width: 0px;
+    transition: width 0.5s;
+    color: #282929;
+  }
+
+  .project:hover > img {
+    transform: scale(0);
+  }
+  
+  .contact {
+    font-family: 'Playfair Display SC', serif;
+    color: #282929;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    margin: 0 5%;
+    text-transform: uppercase;
+  }
+
+  .footer {
+    height: 100vh;
+    width: 100%;
+    margin-top: 50%;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    font-size: 0.75rem;
+  }
+  
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    bottom: 0;
+    font-size: 0.75rem;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  
+  li {
+    padding: 5px 5px;
+  }
 }
