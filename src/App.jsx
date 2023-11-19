@@ -40,13 +40,16 @@ function App() {
   setTimeout(addAnotherSection, 1000);
 
     return (
-      <body>
+      <>
         
+        <div className="cursor-dot" id="cursor-dot" ></div>
+        <div className="cursor-outline"  id="cursor-outline"></div>
+
         <SectionZero />
         <SectionOne />
         <SectionTwo />
     
-      </body>
+        </>
     )
 }
 
