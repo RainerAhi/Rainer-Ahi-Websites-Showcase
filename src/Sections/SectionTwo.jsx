@@ -2,7 +2,7 @@ import React from "react";
 
 export const SectionTwo = () => {
     return (
-        <section className="footer" >
+        <section className="footer" id="footer" >
             <h1 className="contact" >Every endeavor appears challenging until it becomes effortless.</h1>
             <div className="ftborder" />
             <div className="info" >
