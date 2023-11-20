@@ -2,6 +2,7 @@ import { SectionOne } from "./Sections/SectionOne";
 import { SectionTwo } from "./Sections/SectionTwo";
 import Lenis from "@studio-freight/lenis";
 import { SectionZero } from "./Sections/SectionZero";
+import Cursor from "./Cursor";
 
 function App() {
 
@@ -45,6 +46,8 @@ function App() {
         <SectionZero />
         <SectionOne />
         <SectionTwo />
+
+        <Cursor />
 
         {/* <div className="cursor-dot" id="cursor-dot" ></div>
         <div className="cursor-outline"  id="cursor-outline"></div> */}
