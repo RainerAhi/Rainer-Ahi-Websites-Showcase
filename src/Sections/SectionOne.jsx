@@ -20,6 +20,16 @@ export const SectionOne = () => {
           <span>
             <p>every challenge turns effortless with effort</p>
           </span>
+          <a href="https://rainer-ahi-basketball.vercel.app/" target="_blank" ><h1>BASKETBALL</h1></a>
+          <img src="./arrow3.svg" alt="" className="svgarrow" />
+        </div>
+        <div className="border" />
+        <div className="project">
+          <div className="banner">
+          </div>
+          <span>
+            <p>every challenge turns effortless with effort</p>
+          </span>
           <a href="https://porsche-landing-page.vercel.app/" target="_blank" ><h1>PORSCHE</h1></a>
           <img src="./arrow3.svg" alt="" className="arrow" />
         </div>
