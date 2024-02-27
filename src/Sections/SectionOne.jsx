@@ -10,6 +10,16 @@ export const SectionOne = () => {
           <span>
             <p>every challenge turns effortless with effort</p>
           </span>
+          <a href="https://water-website-project.vercel.app/" target="_blank" ><h1>WATER</h1></a>
+          <img src="./arrow3.svg" alt="" className="svgarrow" />
+        </div>
+        <div className="border" />
+      <div className="project">
+          <div className="banner">
+          </div>
+          <span>
+            <p>every challenge turns effortless with effort</p>
+          </span>
           <a href="https://sodasite.vercel.app/" target="_blank" ><h1>SODASITE</h1></a>
           <img src="./arrow3.svg" alt="" className="svgarrow" />
         </div>
